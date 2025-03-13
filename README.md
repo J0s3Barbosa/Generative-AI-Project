@@ -6,57 +6,24 @@ Este repositório apresenta uma estrutura bem organizada para projetos de IA gen
 
 ```
 Generative AI Project Structure
+│── config
+│── data
+│── docs
+│── notebooks
+│── src
+│── test
+│── .env.example
+│── .gitignore
+│── docker-compose-dev.yml
+│── docker-compose-local.yml
+│── Dockerfile
+│── README.md
+│── requirements.txt
+│── run.sh
+│── setup.py
+``` 
 
-├── project/
-│   ├── config/              # Configuração do modelo e registros
-│   │   ├── model_config.yaml
-│   │   ├── logging.config.yaml
-│   │   ├── templates.yaml
-│   │   └── __init__.py
-│   │
-│   ├── src/                 # Código-fonte principal
-│   │   ├── config/
-│   │   └── __init__.py
-│   │
-│   ├── data/                # Diretório para armazenamento de dados
-│   │   └── ...
-│   │
-│   ├── examples/            # Exemplos de uso
-│   │   ├── basic_completion.py
-│   │   ├── chat_session.py
-│   │   ├── chain_prompts.py
-│   │
-│   ├── notebooks/           # Notebooks para análise e testes
-│   │   ├── prompt_testing.ipynb
-│   │   ├── response_analysis.ipynb
-│   │   ├── model_experimentation.ipynb
-│   │
-│   ├── handlers/            # Manipuladores de erros
-│   │   ├── error_handler.py
-│   │   └── __init__.py
-│   │
-│   ├── utils/               # Funções utilitárias
-│   │   ├── rate_limiter.py
-│   │   ├── cache.py
-│   │   ├── token_counter.py
-│   │   └── __init__.py
-│   │
-│   ├── prompts/             # Modelos de prompts
-│   │   └── ...
-│   │
-│   ├── outputs/             # Diretório para saídas geradas
-│   │   └── ...
-│   │
-│   ├── embeddings/          # Representação vetorial
-│   │
-│   ├── utils.py             # Arquivo de utilitários gerais
-│   ├── logger.py            # Configuração de logging
-│   ├── __init__.py          # Inicialização do pacote
-│   └── README.md            # Documentação do projeto
-│
-├── requirements.txt         # Dependências do projeto
-├── setup.py                 # Configuração para instalação
-```
+projeto estruturado para desenvolvimento de IA generativa, com uso de Docker, scripts de configuração e requisitos em Python. 
 
 ## Requisitos
 Antes de começar, instale as dependências necessárias:
